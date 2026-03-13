@@ -1,5 +1,5 @@
-function Myname(name){
-    console.log("My name is " + name);
-}
-
-Myname("saksham");
+var i = 0
+setInterval(function() {
+    i++;
+    console.log(i);
+}, 1000);
